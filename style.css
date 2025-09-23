@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200vh;
+}
+
+body.home {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(0, 174, 255); /* thickness + color */
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+nav {
+  display: flex;
+  height: 6vh;
+  border: 3px solid black;
+  color: white;
+  background-color: rgb(36, 36, 36);
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
