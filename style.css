@@ -4,18 +4,16 @@
 }
 
 body {
-  height: 200vh;
-}
-
-body.home {
+    height: 200vh;
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
 
 h1 {
+  font-size: clamp(24px, 5vw, 64px);
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: 1px rgb(0, 174, 255); /* thickness + color */
+  -webkit-text-stroke: 2px rgb(255, 255, 255); /* thickness + color */
 }
 
 p {
@@ -32,4 +30,26 @@ nav {
   align-items: center;
   position: sticky;
   top: 0;
+}
+
+#hero {
+  background-image: url(assets/2XKO-character-bios-Article-by-Esports.gg-1-968x544.jpg);
+  height: 25vh;
+  background-position: start;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  font-size: 1rem;
+}
+
+form {
+ font-size: 1rem;
+}
+
+price {
+  
 }
