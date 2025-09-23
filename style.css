@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 7vh;
+}
+
 body {
     height: 200vh;
     background: #2A7B9B;
@@ -44,9 +48,19 @@ nav {
 
 main {
   font-size: 1rem;
+    padding-left: 10px;
 }
 
-form {
- font-size: 1rem;
+form fieldset {
+  font-size: 1rem;
+  display: flex;
+  padding-left: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
+legend {
+  font-size: 2rem;
+}
