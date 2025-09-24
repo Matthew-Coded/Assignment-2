@@ -29,6 +29,9 @@
                 <label for="address">Address</label>
                 <input id="address" name="address" type="text">
 
+                <label for="birthday">Date of Birth</label>
+                <input id="birthday" name="birthday" type="date">
+
                 <label for="city">City</label>
                 <input id="" name="" type="text">
 
@@ -290,7 +293,24 @@
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email">
 
+                <label for="reference">How did you hear about this event?</label>
+                <select name="reference" id="reference">
+                    <option value="">-- Select Option --</option>
+                    <option value="friend">Friend</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="discord">Discord</option>
+                    <option value="flyer">Flyer</option>
+                    <option value="other">Other</option>
+                </select>
+
             </fieldset>
+            
+            <div class="submit-reset">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
         </form>
+
+
     </body>
 </html>
